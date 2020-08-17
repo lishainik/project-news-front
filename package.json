@@ -1,0 +1,24 @@
+{
+  "name": "project-news-front",
+  "version": "1.0.0",
+  "description": "frontend of the project-news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lishainik/project-news-front.git"
+  },
+  "author": "Mikhail Chernyshev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lishainik/project-news-front/issues"
+  },
+  "homepage": "https://github.com/lishainik/project-news-front#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
