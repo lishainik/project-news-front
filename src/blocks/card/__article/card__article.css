@@ -1,0 +1,26 @@
+.card__article{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+.card__article {
+  margin-top: 10px;
+  max-height: 66px;
+  line-clamp: 3;
+  overflow: hidden;
+  max-lines: 4;
+  position: relative;
+}
+
+.card__article::after {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+}

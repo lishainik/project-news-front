@@ -1,0 +1,18 @@
+@import url(./__form/search-section__form.css);
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  max-height: 576px;
+  background-image: url(../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png);
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  .search-section {
+    height: 536px;
+    padding-bottom: 32px;
+  }
+}

@@ -1,0 +1,18 @@
+.card__img {
+  display: flex;
+  width: 100%;
+  height: 272px;
+  overflow: hidden;
+  justify-self: flex-start;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card__img {
+    height: 150px;
+  }
+}

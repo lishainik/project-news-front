@@ -1,0 +1,23 @@
+@import url(./__place/button__place.css);
+@import url(./__popup-close/button__popup-close.css);
+@import url(./__popup/button__popup.css);
+
+
+.button {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.button:active {
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+}

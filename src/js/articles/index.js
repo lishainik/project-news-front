@@ -1,3 +1,3 @@
 import '../../css/articles.css';
 
-alert('articles');
+console.log('articles');

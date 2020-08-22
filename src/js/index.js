@@ -1,3 +1,3 @@
 import '../css/index.css';
 
-alert('main page');
+console.log('main page');

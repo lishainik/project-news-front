@@ -1,0 +1,10 @@
+@import url(../content-subtitle/__place/content-subtitle__place.css);
+@import url(./__tag/content-subtitle__tag.css);
+
+.content-subtitle {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color:#ffff;
+}
