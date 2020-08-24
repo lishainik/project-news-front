@@ -1,0 +1,13 @@
+.about__container {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+@media screen and (max-width: 450px) {
+  .about__container {
+    width: 95%;
+    flex-direction: column;
+    justify-items: center;
+  }
+}

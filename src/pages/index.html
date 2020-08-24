@@ -16,13 +16,13 @@
       <a class="header__link header__link_main header__link_underline" href="./index.html">Главная</a>
     <a class="header__link header__link_main header__link_hidden" href='./articles.html'>Сохранненые статьи</a>
     <button class="button button__place_main">Авторизоваться</button>
-
     </div>
+    <button class="header__menu"><img src="<%=require('../images/menu_white.png').default%>"alt="меню"></button>
   </header>
   <div class="header__container">
     <h1 class="content-title content-title__place_search">Что в мире творится</h1>
   <p class="content-subtitle content-subtitle__place_search">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
-  <form class="search-section__form">
+  <form class="search-section__form" required>
     <div class="search-section__form_shape">
       <input class="search-section__form-input" type="text" placeholder="Введите тему новости" required>
       <button class="button button__place_search">Искать</button>
@@ -82,19 +82,24 @@
   </div>
 </section>
 <section class="results results__no-results results_hidden">
-  <img class="results__not-found-img" src="<%=require('../images/not-found_v1.png').default%>">
+  <img class="results__not-found-img"  alt="Ничего не найдено" src="<%=require('../images/not-found_v1.png').default%>">
   <h2 class="content-title content-title__place_not-found">Ничего не найдено</h2>
   <p class="content-subtitle content-subtitle__place_not-found">К сожалению по вашему запросу ничего не найдено.</p>
 </section>
 <section class="results results__preloader results_hidden">
   <i class="circle-preloader"></i>
-  <p class="content-subtitle content-subtitle__place_preloader">Идет поиск новостей...</p>
+  <h4 class="content-subtitle content-subtitle__place_preloader">Идет поиск новостей...</p>
 </section>
 <section class="about">
-  <h1 class="content-title content-title__about">Об авторе</h1>
-  <p class="about__text">
-    Данный сайт был сделан Чернышевым Михаилом в качестве дипломной работы в Яндекс.Практикуме для демонстрации своего владения фронтендом и бекендом
-  </p>
+  <div class="about__container">
+    <img  class="about__picture" alt="Об авторе-профиль" src="<%=require('../images/65256948.png').default%>">
+    <div class="about__text-container">
+      <h1 class="content-title content-title__place_about">Об авторе</h1>
+      <p class="about__text">
+      Данный сайт был сделан Чернышевым Михаилом в качестве дипломной работы в Яндекс.Практикуме для демонстрации своего владения фронтендом и бекендом.
+      </p>
+    </div>
+  </div>
 </section>
 <footer class="footer footer__place_main">
   <p class="footer__copyright">&copy; 2020 Supersite. Powered by News API.</p>
@@ -111,10 +116,10 @@
     <h2 class="popup__title">Вход</h2>
     <form class="popup__form">
       <h4 class="popup__form-title">Email</h4>
-      <input class="popup__form-input" type="text"  name="email" required="true" placeholder="Введите почту">
+      <input class="popup__form-input" type="text"  name="email" required placeholder="Введите почту">
       <p class = "popup__error">Неправильный формат email</p>
       <h4 class="popup__form-title">Пароль</h4>
-      <input class="popup__form-input" type="password"  name="password" required="true" placeholder="Введите пароль">
+      <input class="popup__form-input" type="password"  name="password" required placeholder="Введите пароль">
       <p class = "popup__error"></p>
       <button class="button button__place_popup button__place_popup-disabled" disabled>Войти</button>
       <p class="popup__text">или <a class="popup__text popup__link">Зарегистрироваться</a></p>
@@ -127,13 +132,13 @@
       <h2 class="popup__title">Регистрация</h2>
       <form class="popup__form">
         <h4 class="popup__form-title">Email</h4>
-        <input class="popup__form-input" type="text"  name="email" required="true" placeholder="Введите почту">
+        <input class="popup__form-input" type="text"  name="email" required placeholder="Введите почту">
         <p class = "popup__error"></p>
         <h4 class="popup__form-title">Пароль</h4>
-        <input class="popup__form-input" type="password"  name="password" required="true" placeholder="Введите пароль">
+        <input class="popup__form-input" type="password"  name="password" required placeholder="Введите пароль">
         <p class = "popup__error"></p>
         <h4 class="popup__form-title">Имя</h4>
-        <input class="popup__form-input" type="text"  name="name" required="true" placeholder="Введите своё имя">
+        <input class="popup__form-input" type="text"  name="name" required placeholder="Введите своё имя">
         <p class = "popup__error"></p>
         <button class="button button__place_popup button__place_popup-disabled" disabled>Зарегистрироваться</button>
         <p class="popup__text">или <a class="popup__text popup__link">Войти</a></p>

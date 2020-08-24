@@ -48,6 +48,28 @@ margin-top: 28px;
 margin-bottom: 0;
 }
 
+.content-title.content-title__place_about {
+  color: #1A1B22;
+  margin-top: 80px;
+}
+
+@media screen and (max-width : 950px) {
+  .content-title.content-title__place_about {
+    font-size: 30px;
+line-height: 40px;
+    margin-top: 40px;
+  }
+
+  .content-title.content-title__place_card {
+    color: #1A1B22;
+    font-size: 22px;
+line-height: 24px;
+    max-width: 192px;
+
+    margin: 12px auto 0 auto;
+  }
+}
+
 @media screen and (max-width : 768px) {
 .content-title.content-title__place_search {
     max-width: 50%;
@@ -67,21 +89,14 @@ margin-bottom: 0;
   max-height: 68px;
   }
 
-  .content-title.content-title__place_card {
-    color: #1A1B22;
-    font-size: 22px;
-line-height: 24px;
-    max-width: 192px;
-
-    margin: 12px auto 0 auto;
-  }
-
   .content-title.content-title__place_user-info {
     font-size: 30px;
 line-height: 34px;
 margin-top: 16px;
   }
+
 }
+
 
 @media screen and (max-width: 450px) {
   .content-title.content-title__place_search {
@@ -100,5 +115,9 @@ margin-top: 16px;
   .content-title.content-title__place_user-info {
     margin-top: 16px;
     max-height: 102px
+  }
+
+  .content-title.content-title__place_about {
+    margin-top: 0;
   }
 }

@@ -1,0 +1,21 @@
+.about__picture {
+  border-radius: 1000px;
+  margin: 80px auto 80px auto;
+  max-width: 460px;
+  max-height: 460px;
+}
+
+@media screen and (max-width: 1100px) {
+  .about__picture {
+    max-width: 265px;
+    max-height: 265px;
+    margin: 60px auto 60px auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about__picture {
+    margin: 32px auto 24px auto;
+    justify-self: center;
+  }
+}

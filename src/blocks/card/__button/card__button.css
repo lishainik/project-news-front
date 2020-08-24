@@ -57,7 +57,7 @@
   background-image: url(../../../images/trash-active.png);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .card__button_log {
     display: none;
   }

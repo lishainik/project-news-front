@@ -19,7 +19,6 @@
 .search-section__form-input {
   margin: 21px auto 21px 24px;
   border: none;
-  outline: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -27,6 +26,7 @@
   line-height: 22px;
   color: #1A1B22;
   caret-color: #2F71E5;
+  width: 60%;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,14 +1,15 @@
 .card__content {
-  margin: 296px auto 24px auto;
+  margin: 20px auto 24px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 352px;
+  width: 90%;
 }
 
 @media screen and (max-width: 768px) {
 .card__content{
-  margin: 166px auto 16px auto;
+  margin: 16px auto 16px auto;
   max-width: 192px;
 }
 }

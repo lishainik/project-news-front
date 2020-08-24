@@ -18,3 +18,10 @@
   .footer {max-height: 64px;}
 }
 
+@media screen and (max-width: 550px) {
+  .footer {
+    flex-direction: column-reverse;
+    margin-top:24px;
+    max-height: 225px;
+  }
+}
