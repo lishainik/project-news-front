@@ -1,16 +1,7 @@
-.card__img {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-  justify-self: flex-start;
-  background-size: cover;
+.card__img{
+  position: absolute;
+  top: 0;
+  right: 0;
   background-position: center;
-  padding-bottom: 50%;
-
-}
-
-@media screen and (max-width: 768px) {
-  .card__img {
-    height: 150px;
-  }
+  align-content: center;
 }

@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content='ie=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NewsExplorer</title>
   <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>">
   <link rel="icon" href="<%=require('../images/Icon.png').default%>">
@@ -22,9 +22,9 @@
   <div class="header__container">
     <h1 class="content-title content-title__place_search">Что в мире творится</h1>
   <p class="content-subtitle content-subtitle__place_search">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
-  <form class="search-section__form" required>
+  <form class="search-section__form">
     <div class="search-section__form_shape">
-      <input class="search-section__form-input" type="text" placeholder="Введите тему новости" required>
+      <input class="search-section__form-input" type="text" placeholder="Введите тему новости" required minlength="1">
       <button class="button button__place_search">Искать</button>
     </div>
   </form>
@@ -35,7 +35,8 @@
     <h2 class="content-title content-title__place_results">Результаты поиска</h2>
   <div class="results__grid">
     <div class="card">
-      <div class="card__img" style="background-image: url(<%=require('../images/image_04.png').default%>);">
+      <div class="card__img-container">
+        <img class="card__img" alt="статья" src="<%=require('../images/image_04.png').default%>">
         <div class="card__button-container">
           <button class="card__button card__button_log card__button_hidden">Войдите, чтобы сохранять статьи</button>
           <button class="card__button card__button_save"></button>
@@ -49,11 +50,12 @@
       </div>
     </div>
     <div class="card">
-        <div class="card__img" style="background-image: url(<%=require('../images/image_07.png').default%>);">
+        <div class="card__img-container">
           <div class="card__button-container">
             <button class="card__button card__button_log card__button_hidden">Войдите, чтобы сохранять статьи</button>
             <button class="card__button card__button_save"></button>
           </div>
+          <img class="card__img" alt="статья" src="<%=require('../images/image_07.png').default%>">
         </div>
         <div class="card__content">
           <p class="card__date">2 августа,  2019</p>
@@ -63,7 +65,8 @@
         </div>
       </div>
       <div class="card">
-          <div class="card__img" style="background-image: url(<%=require('../images/image_08.png').default%>);">
+          <div class="card__img-container">
+            <img class="card__img" alt="статья" src="<%=require('../images/image_08.png').default%>">
             <div class="card__button-container">
               <button class="card__button card__button_log">Войдите, чтобы сохранять статьи</button>
               <button class="card__button card__button_save"></button>
@@ -88,7 +91,7 @@
 </section>
 <section class="results results__preloader results_hidden">
   <i class="circle-preloader"></i>
-  <h4 class="content-subtitle content-subtitle__place_preloader">Идет поиск новостей...</p>
+  <h4 class="content-subtitle content-subtitle__place_preloader">Идет поиск новостей...</h4>
 </section>
 <section class="about">
   <div class="about__container">
