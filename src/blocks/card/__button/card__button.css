@@ -38,7 +38,11 @@
 }
 
 .card__button_saved{
-  background-image: url(../../../images/saveicon_saved.png);
+  background: url(../../../images/saveicon_saved.png) center no-repeat;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-width: 0;
 }
 
 .card__button:focus{

@@ -4,6 +4,7 @@
   grid-gap: 16px 16px;
   justify-content: center;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {

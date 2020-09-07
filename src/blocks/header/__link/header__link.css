@@ -17,10 +17,6 @@
   color: #1A1B22;
 }
 
-.header__link.header__link_hidden {
-  display: none;
-}
-
 .header__link_main.header__link_underline {
   border: solid;
   border-width: 0 0 3px 0;

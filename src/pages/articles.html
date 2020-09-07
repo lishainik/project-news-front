@@ -15,20 +15,20 @@
       <div class="header__buttons">
         <a class="header__link header__link_articles" href="./index.html">Главная</a>
       <a class="header__link header__link_articles header__link_underline" href='./articles.html'>Сохранненые статьи</a>
-      <button class="button button__place_article">Грета<img class="button__logout-img" alt="Выйти" src="<%=require('../images/logout.png').default%>"></button>
+      <button class="button button__place_article"><span class="button__text"></span><img class="button__logout-img" alt="Выйти" src="<%=require('../images/logout.png').default%>"></button>
       </div>
       <button class="header__menu"><img src="<%=require('../images/menu.png').default%>"alt="меню"></button>
     </header>
     <div class="user-info__container">
       <p class="user-info__text">Сохранённые статьи</p>
-      <h1 class="content-title content-title__place_user-info">Грета, у вас 5 сохранённых статей</h1>
-      <p class="content-subtitle content-subtitle__place_user-info">По ключевым словам: <span class="content-subtitle__tag">Природа</span>, <span class="content-subtitle__tag">Тайга</span> и  <span class="content-subtitle__tag">2 другим</span></p>
+      <h1 class="content-title content-title__place_user-info"><span class="user-info__name"></span><span class="user-info__title-text"></span></h1>
+      <p class="content-subtitle content-subtitle__place_user-info">По ключевым словам: <span class="content-subtitle__tag content-subtitle__tag_first">Природа</span>, <span class="content-subtitle__tag content-subtitle__tag_second">Тайга</span><span class='linkage'> и </span><span class="content-subtitle__tag content-subtitle__tag_third">2 другим</span></p>
     </div>
   </section>
   <section class="saved-articles">
     <div class="results__container">
     <div class="results__grid">
-      <div class="card">
+      <!-- <div class="card">
         <div class="card__img-container">
           <img class="card__img" alt="статья" src="<%=require('../images/image_04.png').default%>">
           <p class="card__button card__tag">Природа</p>
@@ -44,70 +44,9 @@
         <p class="card__source">Медуза</p>
         </div>
       </div>
-      <div class="card">
-        <div class="card__img-container">
-          <img class="card__img" alt="статья" src="<%=require('../images/image_07.png').default%>">
-          <p class="card__button card__tag">Природа</p>
-          <div class="card__button-container">
-            <button class="card__button card__button_log card__button_hidden">Убрать из сохранённых</button>
-            <button class="card__button card__button_delete"></button>
-          </div>
-        </div>
-        <div class="card__content">
-          <p class="card__date">2 августа,  2019</p>
-        <h3 class="content-title content-title__place_card"> Национальное достояние – парки </h3>
-        <p class="card__article">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-        <p class="card__source">АФИША</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__img-container">
-          <img class="card__img" alt="статья" src="<%=require('../images/image_04.png').default%>">
-          <p class="card__button card__tag">Тайга</p>
-          <div class="card__button-container">
-            <button class="card__button card__button_log card__button_hidden">Убрать из сохранённых</button>
-            <button class="card__button card__button_delete"></button>
-          </div>
-        </div>
-        <div class="card__content">
-          <p class="card__date">2 августа,  2019</p>
-        <h3 class="content-title content-title__place_card"> «Первозданная тайга»: новый фотопроект Игоря Шпиленка </h3>
-        <p class="card__article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-        <p class="card__source">Медиазона</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__img-container">
-          <img class="card__img" alt="статья" src="<%=require('../images/image_07.png').default%>">
-          <p class="card__button card__tag">Природа</p>
-          <div class="card__button-container">
-            <button class="card__button card__button_log card__button_hidden">Убрать из сохранённых</button>
-            <button class="card__button card__button_delete"></button>
-          </div>
-        </div>
-        <div class="card__content">
-          <p class="card__date">2 августа,  2019</p>
-        <h3 class="content-title content-title__place_card"> Лесные огоньки: история одной фотографии </h3>
-        <p class="card__article">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-        <p class="card__source">Медуза</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__img-container">
-          <img class="card__img" alt="статья" src="<%=require('../images/image_04.png').default%>">
-          <p class="card__button card__tag">Природа</p>
-          <div class="card__button-container">
-            <button class="card__button card__button_log card__button_hidden">Убрать из сохранённых</button>
-            <button class="card__button card__button_delete"></button>
-          </div>
-        </div>
-        <div class="card__content">
-          <p class="card__date">2 августа,  2019</p>
-        <h3 class="content-title content-title__place_card"> Лесные огоньки: история одной фотографии </h3>
-        <p class="card__article">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-        <p class="card__source">Медуза</p>
-        </div>
-      </div>
+       -->
+
+
     </div>
   </section>
   <footer class="footer footer__place_articles">
@@ -128,8 +67,8 @@
         </div>
         <div class="popup__menu-buttons">
           <a class="popup__link_menu" href="./index.html">Главная</a>
-          <a class="popup__link_menu" href="./articles.html">Сохранненые статьи</a>
-          <button class="button button__place_main button__popup">Авторизоваться</button>
+          <a class="popup__link_menu popup__link_menu-secondary" href="./articles.html">Сохранненые статьи</a>
+          <button class="button button__place_main button__popup"><span class="button__text">Авторизоваться</span><img class="button__logout-img" alt="Выйти" src="<%=require('../images/logout_white.png').default%>"></button>
         </div>
     </div>
   </div>

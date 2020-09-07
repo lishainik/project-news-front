@@ -5,6 +5,11 @@
   font-size: 16px;
   line-height: 22px;
   margin-top: 16px;
+  line-clamp: 3;
+  overflow: hidden;
+  max-lines: 4;
+  position: relative;
+  max-height: 110px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -17,10 +22,4 @@
   position: relative;
 }
 
-.card__article::after {
-  content: "...";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
 }

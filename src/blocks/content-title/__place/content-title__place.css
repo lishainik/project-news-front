@@ -21,11 +21,11 @@
 
 .content-title.content-title__place_card {
   color: #1A1B22;
-  font-size: 26px;
+  font-size: 1.5em;
   line-height: 30px;
   max-width: 352px;
 
-  margin: 12px auto 0 auto;
+  margin: auto auto 0 auto;
 }
 
 .content-title.content-title__place_not-found {
@@ -62,11 +62,11 @@ line-height: 40px;
 
   .content-title.content-title__place_card {
     color: #1A1B22;
-    font-size: 22px;
+    font-size: 1.21em;
 line-height: 24px;
     max-width: 192px;
 
-    margin: 12px auto 0 auto;
+    margin: auto auto 0 auto;
   }
 }
 

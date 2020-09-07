@@ -14,5 +14,6 @@
     margin-right: 16px;
     cursor: pointer;
     outline-style: none;
+    justify-content: center;
   }
 }
