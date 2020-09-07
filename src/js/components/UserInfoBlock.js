@@ -97,6 +97,7 @@ export default class UserInfoBlock {
           secondTag.textContent = `${second}`;
           restOfTags.textContent = `${keywordRankingRes.length - 2} другим`;
         }
-      });
+      })
+      .catch((err) => err);
   }
 }

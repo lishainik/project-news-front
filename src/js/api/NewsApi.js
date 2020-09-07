@@ -16,8 +16,6 @@ export default class NewsApi {
         return Promise.reject(new Error('Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз'));
       })
       .then((result) => result)
-      .catch((error) => {
-        console.log(error);
-      });
+      .catch((err) => err);
   }
 }
