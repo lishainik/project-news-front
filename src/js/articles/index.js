@@ -12,8 +12,8 @@ import {
   USER_INFO_ELEMENT, USER_INFO_TITLE, USER_INFO_TEXT, ARTICLES_POPUP_MENU,
   POPUP_MENU_LINK_ONE, POPUP_MENU_LINK_TWO, POPUP_MENU_BUTTON,
 } from '../const/const_article';
-
-const articlesApi = new MainApi('http://localhost:3000');
+import MAIN_API_ADRESS from '../const/URL';
+const articlesApi = new MainApi(MAIN_API_ADRESS);
 const userInfo = new UserInfoBlock(USER_INFO_ELEMENT, USER_INFO_TITLE,
   USER_INFO_TEXT, articlesApi);
 const savedCards = new SavedCardList(ARTICLES_CARD_CONTAINER, articlesApi,

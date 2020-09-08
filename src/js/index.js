@@ -29,6 +29,7 @@ import {
   MENU_LINK_TWO,
   MENU_BUTTON,
 } from './const/const_main';
+import MAIN_API_ADRESS from './const/URL';
 
 const registrationPopup = new Popup(REGISTRATION_POPUP_ELEMENT, REGISTRATION_FORM_ELEMENT);
 const loginPopup = new Popup(LOGIN_POPUP_ELEMENT, LOGIN_FORM_ELEMENT);
@@ -36,7 +37,7 @@ const registeredPopup = new Popup(REGISTERED_POPUP_ELEMENT);
 const registrationForm = new Form(REGISTRATION_FORM_ELEMENT, ERROR_MSG);
 const loginForm = new Form(LOGIN_FORM_ELEMENT, ERROR_MSG);
 const news = new NewsApi('4f3ecb30c5c047dda5ec66fd2ba91bac');
-const mainApi = new MainApi('http://localhost:3000');
+const mainApi = new MainApi(MAIN_API_ADRESS);
 const resultsList = new CardList(RESULTS_GRID_CONTAINER, NEW_CARD_CLASS, MORE_BUTTON, mainApi);
 const smallMenu = new MenuPopup(MENU_ELEMENT, mainApi, MENU_LINK_ONE, MENU_LINK_TWO,
   MENU_BUTTON, registrationPopup);
