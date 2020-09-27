@@ -1,0 +1,12 @@
+.about__text-container {
+  margin-left: 56px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 550px) {
+  .about__text-container {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+}

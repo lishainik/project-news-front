@@ -1,0 +1,12 @@
+@import url(../results/__container/results__container.css);
+@import url(../results/__grid/results__grid.css);
+@import url(./_hidden/results_hidden.css);
+@import url(./__not-found-img/results__not-found-img.css);
+.results {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 0 auto;
+  background-color: #F5F6F7;;
+}

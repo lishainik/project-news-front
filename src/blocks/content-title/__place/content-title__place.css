@@ -1,0 +1,123 @@
+.content-title.content-title__place_search {
+  max-width: 608px;
+  max-height: 128px;
+  margin: 80px auto 0;
+  display: block;
+  text-align: left;
+}
+
+.content-title.content-title__place_results {
+  max-width: 712px;
+  max-height: 68px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  color: #1A1B22;
+  align-self: flex-start;
+  margin-top: 80px;
+
+}
+
+.content-title.content-title__place_card {
+  color: #1A1B22;
+  font-size: 1.5em;
+  line-height: 30px;
+  max-width: 352px;
+
+  margin: auto auto 0 auto;
+}
+
+.content-title.content-title__place_not-found {
+  max-width: 356px;
+height: 30px;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+color: #1A1B22;
+margin-top: 40px;
+}
+
+.content-title.content-title__place_user-info {
+  max-width: 530px;
+  max-height: 92px;
+  font-size: 40px;
+line-height: 46px;
+color: #1A1B22;
+margin-top: 28px;
+margin-bottom: 0;
+}
+
+.content-title.content-title__place_about {
+  color: #1A1B22;
+  margin-top: 80px;
+}
+
+@media screen and (max-width : 950px) {
+  .content-title.content-title__place_about {
+    font-size: 30px;
+line-height: 40px;
+    margin-top: 40px;
+  }
+
+  .content-title.content-title__place_card {
+    color: #1A1B22;
+    font-size: 1.21em;
+line-height: 24px;
+    max-width: 192px;
+
+    margin: auto auto 0 auto;
+  }
+}
+
+@media screen and (max-width : 768px) {
+.content-title.content-title__place_search {
+    max-width: 50%;
+    max-height: 80px;
+    margin: 38px auto 0 0;
+    font-size: 36px;
+  line-height: 40px;
+  display: block;
+  text-align: left;
+  }
+
+  .content-title.content-title__place_results {
+    margin-top: 40px;
+    font-size: 30px;
+  line-height: 34px;
+  max-width: 336px;
+  max-height: 68px;
+  }
+
+  .content-title.content-title__place_user-info {
+    font-size: 30px;
+line-height: 34px;
+margin-top: 16px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .content-title.content-title__place_search {
+    margin: 19px auto 0 0;
+    max-width: 100%;
+  }
+
+  .content-title.content-title__place_results {
+    margin-top: 32px;
+  }
+
+  .content-title.content-title__place_card {
+    max-width: 256px;
+  }
+
+  .content-title.content-title__place_user-info {
+    margin-top: 16px;
+    max-height: 102px
+  }
+
+  .content-title.content-title__place_about {
+    margin-top: 0;
+  }
+}

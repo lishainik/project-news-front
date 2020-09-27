@@ -1,0 +1,16 @@
+.about__text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #1A1B22;
+margin-top: 24px;
+max-width: 600px;
+}
+
+@media screen and (max-width: 1100px) {
+  .about__text {
+    max-width: 450px;
+  }
+}

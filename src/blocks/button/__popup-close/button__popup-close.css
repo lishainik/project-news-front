@@ -1,0 +1,31 @@
+.button__popup-close {
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  top: -36px;
+  right: -36px;
+}
+
+.button__popup-close:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .button__popup-close.button__popup-close_menu {
+    top: 16px;
+    right: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .button__popup-close {
+    right: 16px;
+    top: -45px;
+  }
+
+}

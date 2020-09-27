@@ -1,0 +1,40 @@
+.footer__link{
+  max-height: 22px;
+  max-width: 192px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer__link_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__link_icon:first-of-type {
+  margin-right: 28px;
+
+}
+
+@media screen and (max-width: 550px) {
+  .footer__link:first-of-type {
+    grid-area: link;
+  }
+
+  .footer__link {
+    grid-area: link2;
+    text-align: left;
+  }
+
+  .footer__link_icon {
+    justify-self: right;
+  }
+
+  .footer__link.footer__link_icon {
+    grid-area: button2;
+  }
+
+  .footer__link.footer__link_icon-first{
+    grid-area: button;
+
+  }
+}

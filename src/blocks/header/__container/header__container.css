@@ -1,0 +1,11 @@
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+@media screen and (max-width: 450px) {
+  .header__container {
+    width: 95%;
+  }
+}

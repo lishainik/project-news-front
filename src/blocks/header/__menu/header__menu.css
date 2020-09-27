@@ -1,0 +1,19 @@
+.header__menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 700px){
+  .header__menu {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    height: 24px;
+    width: 24px;
+    margin-top: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    outline-style: none;
+    justify-content: center;
+  }
+}

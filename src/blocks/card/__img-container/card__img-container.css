@@ -1,0 +1,11 @@
+.card__img-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  justify-self: flex-start;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 50%;
+  position: relative;
+}
+

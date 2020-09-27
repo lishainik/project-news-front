@@ -1,0 +1,13 @@
+.results__container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+.results__container{
+  width: 90%;
+}
+
+}

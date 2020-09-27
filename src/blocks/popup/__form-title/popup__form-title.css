@@ -1,0 +1,13 @@
+.popup__form-title {
+  height: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2F71E5;
+}
+
+.popup__form-title:first-of-type{
+  margin-top: 22px;
+}

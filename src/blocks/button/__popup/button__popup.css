@@ -1,0 +1,7 @@
+.button__place_main.button__popup {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  padding-top: 10px;
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+.card__date{
+  font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B6BCBF;
+  margin: 0 auto 0 0;
+  justify-self: right;
+}

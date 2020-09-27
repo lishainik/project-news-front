@@ -1,0 +1,68 @@
+.card__button {
+  justify-self: top;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.card__button_log {
+  margin-right: 5px;
+  border-width: 0;
+  cursor: auto;
+}
+
+.card__button.card__button_hidden{
+  display: none;
+}
+
+.card__button_save {
+  background: url(../../../images/saveicon_inactive.png) center no-repeat;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-width: 0;
+}
+
+.card__button_save:hover {
+  background-image: url(../../../images/saveicon_hover.svg);
+}
+
+.card__button_saved{
+  background: url(../../../images/saveicon_saved.png) center no-repeat;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-width: 0;
+}
+
+.card__button:focus{
+  outline: none;
+}
+
+.card__button_delete {
+  background: url(../../../images/trash.png) center no-repeat;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-width: 0;
+}
+
+.card__button_delete:hover {
+  background-image: url(../../../images/trash-active.png);
+}
+
+@media screen and (max-width: 900px) {
+  .card__button_log {
+    display: none;
+  }
+}

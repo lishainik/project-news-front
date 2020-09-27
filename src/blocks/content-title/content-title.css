@@ -1,0 +1,10 @@
+@import url(../content-title/__place/content-title__place.css);
+
+.content-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  font-family: Roboto Slab, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
